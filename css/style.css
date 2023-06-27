@@ -2,6 +2,7 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* Header */
 .navbar-nav li a,
 .navbar span a
 {
@@ -17,12 +18,11 @@
     text-decoration: none;
 }
 
+/* Hero */
+
 video {
     width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     z-index: -1;
 }
 
@@ -53,3 +53,13 @@ video {
     border-radius: 50px;
     font-size: 14px;
 }
+
+/* Homepage */
+
+.homepage img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+/*  */
