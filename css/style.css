@@ -1,0 +1,55 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-nav li a,
+.navbar span a
+{
+    color: black;
+    font-size: 14px;
+}
+.disney-hotstar {
+    height: auto;
+}
+
+.disney-hotstar a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.hero-poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.hero-button .button1 {
+    background-color: #6db0c0;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.hero-button .button2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 14px;
+}
