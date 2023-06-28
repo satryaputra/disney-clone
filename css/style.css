@@ -2,6 +2,10 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+body{
+    background-color: #f8f9fa
+}
+
 /* Header */
 .navbar-nav li a,
 .navbar span a
@@ -57,9 +61,86 @@ video {
 /* Homepage */
 
 .homepage img {
-    position: absolute;
+    
     width: 100%;
     left: 0;
 }
 
-/*  */
+
+/* card */
+
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    margin-top: 10px;
+  } 
+  
+  /* pilihan video  */
+.about {
+    padding: 8rem 7% 1.4rem ;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.about p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: auto;
+    font-weight: 400;
+}
+
+.video h2 {
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+
+.video p {
+    font-size: 0.7rem;
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 0.2rem;
+}
+
+.videos p {
+    font-size: 0.7rem;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+
+.videoo-text p {
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
