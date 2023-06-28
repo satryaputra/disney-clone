@@ -87,13 +87,13 @@ video {
     text-align: center;
   }
   
-  img {
+  .card-item img {
     width: 100%;
     max-width: 100%;
     height: auto;
   }
   
-  p {
+  .card-item p {
     margin-top: 10px;
   } 
   
