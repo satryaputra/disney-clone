@@ -237,6 +237,15 @@ body{
     opacity: 80%;
 }
 
+/* lainnya disney */
+
+.card-other .card {
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    color: black;
+}
+
 /* Footer */
 .footer {
     text-decoration: none;
