@@ -3,7 +3,8 @@
 }
 
 body{
-    background-color: #f8f9fa
+    background-color: #f8f9fa;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -159,6 +160,7 @@ body{
 
 .card-vidio img {
     transition: transform 0.5s ease;
+    cursor: pointer;
 }
 
 .card-vidio:hover img {
@@ -176,6 +178,72 @@ body{
     left: 40%;
 }
 
-.card-body {
+.card-vidio .card-body {
     height: 300px;
 }
+
+.card-vidionew .card {
+    border: none;
+    border-radius: 0;
+    background-color: #0c2c67;
+    color: white;
+}
+
+.card-vidionew .card .card-body-vidionew h4 {
+    font-size: 20px;
+}
+
+.card-vidionew .card .card-body-vidionew p {
+    font-size: 14px;
+}
+
+.card-vidionew .card .card-body-vidionew a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-vidionew .card-body {
+    height: 225px;
+}
+
+/* Slider */
+
+.swiper-container img {
+    transition: transform 0.3s ease;
+}
+
+.swiper-container img:hover {
+    transform: scale(1.05);
+}
+
+.dplus-hotstar-brand {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.btn-signup button {
+    width: 200px;
+    align-items: center;
+    margin-left: 40%;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-signup button:hover {
+    opacity: 80%;
+}
+
+/* Footer */
+.footer {
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 12px;
+    color: black;
+  }
+  .footer:hover {
+    color: blue;
+  }

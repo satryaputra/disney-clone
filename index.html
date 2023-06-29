@@ -7,10 +7,18 @@
 
     <title>Disney Indonesia | The official home for all things Disney</title>
 
+    <link rel="shortcut icon" href="assets/title_logo.png" type="image/png">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.7.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
     <!-- Font Noto Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -159,59 +167,126 @@
     </section>
 
     <!-- section disney  -->
-    <section>
-      <div style="background-color: #00044b;" class="container-xxl border-primary-subtle">
+    <section style="background-color: #00044b;" class="container-xxl pb-5">
+      <div class="container-xl">
+
         <div class="row">
             <div class="text-disney text-center">
-              <h2 class="mt-5 text-white">What's new to Disney+</h2>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <div class="card">
-                  <img src="assets/home/wakandaforeverwide_6c554ae9.png" alt="" />
-                </div>
-                <div class="card-body">
-                  <h2 style="font-size: 17.6px; text-align: left; margin-left: 1rem; margin-top: 2rem; margin-bottom: 1rem; font-weight: bold;">THE LITTLE MERMAID OFFCIAL TRAILER</h2>
-                  <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;">Watch and yo'll see,</p>
-                  <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;"> Some Day i'll be,</p>
-                  <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;">Part of your world </p>
-                  <br>
-                  <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;">Watch the trailer #TheLittle Mermaid and see the movie in cinemas May 2023!</p>
-                  <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;">cinemas May 2023!</p>
-                  <br>
-                  <p style="font-size: 13.6px; text-align: left; margin-left: 1rem; font-weight: bold;">FEATURED VIDEO</p>
-                </div>
-              </div>
-              <div class="col-6">
-                <div style="background-color: #2c36fd;" class="card">
-                  <img src="assets/home/gannibalwide_9d20fcd7.png" alt=""/>
-                  <div class="card-body">
-                      <h2 style="font-size: 17.6px; text-align: left; margin-left: 1rem; margin-top: 1.5rem; margin-bottom: 0.8rem; font-weight: bold;">HAUNTED MANSION OFFCIAL TEASER TRAILER</h2>
-                      <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;">Home is where the haunt is. Watch the brand-new teaser trailer for</p>
-                      <p style="font-size: 13.6px; text-align: left; margin-left: 1rem;">@HauntedMansion, appearing only in cinemas july 2023</p>
-                      <br><br><br><br>
-                      <p style="font-size: 13.6px; text-align: left; margin-left: 1rem; font-weight: bold;">FEATURED VIDEO</p>
-                  </div>
-                </div>
-            </div>
-            <!-- corsule -->
-            <div class="carousel">
-              <div class="text-disney text-center text-white">
-                <h2 class="mt-5 text-white">Now streaming on Disney+ Hotstar</h2>
-                <p>Something for everyone</p>
-              </div>
-              <div class="gambar coursel align-items-center">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-                <img src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
-              </div>
+              <h2 class="my-5 text-white">What's new to Disney+</h2>
             </div>
         </div>
-      </div>
+
+            <div class="row card-vidionew">
+              <div class="col-6">
+                <div class="card">
+                  <img src="assets/home/wakandaforeverwide_6c554ae9.png" alt=""/>
+                  <div class="card-body p-4 card-body-vidionew">
+                      <h4>Marvel Studios' Black Panther: Wakanda Forever</h4>
+                      <p>Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.</p>
+                      <br>
+                      <a>STREAMING SEKARANG</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card">
+                  <img src="assets/home/gannibalwide_9d20fcd7.png" alt=""/>
+                  <div class="card-body p-4 card-body-vidionew">
+                      <h4>Gannibal</h4>
+                      <p>Gannibal,  After causing a major incident, police officer Daigo Agawa takes his wife and daughter to live in the remote mountain village of Kuge. Despite seeming a perfect place to recover from the ordeal, a missing persons case remains unsolved of the previous officer posted there.</p>
+                      <br>
+                      <a>STREAMING SEKARANG</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+          <div class="row">
+            <div class="text-center">
+              <h3 class="mt-5 text-white">Now Streaming on Disney+ Hotstar</h3>
+              <p class="text-white fs-5 mb-4">Something for everyone</p>
+            </div>
+          </div>
+
+          <div class="row swiper mySwiper">
+            <div class="page1 swiper-container swiper-wrapper">
+              <img class="swiper-slide" src="assets/home/j-hope_in_the_box_40cc51d9.jpeg" alt="">
+              <img class="swiper-slide" src="assets/home/super_junior-_the_last_man_standing_eng_5c6bd1de.png" alt="">
+              <img class="swiper-slide" src="assets/home/the_menu_77814b5e.jpeg" alt="">
+              <img class="swiper-slide" src="assets/home/sfa_ee20e379.png" alt="">
+              <img class="swiper-slide" src="assets/home/tokyo-revengers_95e1e23d.png" alt="">
+              <img class="swiper-slide" src="assets/home/tfr_638b960e.png" alt="">
+              <img class="swiper-slide" src="assets/home/starwars-badbatch_43cb75e0.png" alt="">
+              <img class="swiper-slide" src="assets/home/sea-hotstar-nationaltreasure-edgeofhistory_f90c4b49.jpeg" alt="">
+              <img class="swiper-slide" src="assets/home/ejenali_540x810_6bbf08f1.jpeg" alt="">
+              <img class="swiper-slide" src="assets/home/kkn_540x810_7e485a18.png" alt="">
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <img class="dplus-hotstar-brand my-5" src="assets/home/dplus-hotstar-brands_e44beeca.png" alt="">
+          
+          <div class="row btn-signup">
+            <button class="py-2 px-5">SIGN UP NOW</button>
+          </div>
+
+        </div>
     </section>
+
+    <!-- Footer -->
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <img src="assets/home/disney_logo.png" alt="" width="80" style="margin-top: 5rem; margin-bottom: 18px" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="isi d-flex justify-content-center">
+          <div class="mr-3"><a class="footer" href="">SHOP</a></div>
+          <div class="mr-3"><a class="footer" href="">OH MY DISNEY</a></div>
+          <div class="mr-3"><a class="footer" href="">DISNEY STYLE</a></div>
+          <div class="mr-3"><a class="footer" href="">DISNEY FAMILY</a></div>
+          <div class="mr-3"><a class="footer" href="">MOVIES</a></div>
+          <div class="mr-3"><a class="footer" href="">PARKS</a></div>
+          <div class="mr-3"><a class="footer" href="">MARVEL</a></div>
+          <div class="mr-3"><a class="footer" href="">STAR WARS</a></div>
+          <div class="mr-3"><a class="footer" href="">PIXAR</a></div>
+          <div class="mr-3"><a class="footer" href="">PRINCESS</a></div>
+          <div class="mr-3"><a class="footer" href="">GAMES</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <div class="isi d-flex justify-content-center">
+            <div class="mr-3"><a class="footer" href="">About Disney</a></div>
+            <div class="mr-3"><a class="footer" href="">Support</a></div>
+            <div class="mr-3"><a class="footer" href="">Investor Relations</a></div>
+            <div class="mr-3"><a class="footer" href="">Careers</a></div>
+            <div class="mr-3"><a class="footer" href="">Terms of Use</a></div>
+            <div class="mr-3"><a class="footer" href="">Supplemental Privacy Policy for Indonesia</a></div>
+            <div class="mr-3"><a class="footer" href="">Privacy Policy</a></div>
+            <div class="mr-3"><a class="footer" href="">Classifications</a></div>
+            <div class="mr-3"><a class="footer" href="">Interest-Based Ads</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <p style="font-size: 13px; margin-top: 1rem; margin-bottom: 25px">©Disney ©Disney/Pixar © ™ Lucasfilm Ltd. © Marvel, Disney Entertainment</p>
+    </div>
+    <!-- End Footer -->
+
+
+    <!-- Swiper -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
