@@ -97,7 +97,11 @@ body{
 
 
 /* card */
-  
+
+    .cards {
+        cursor: pointer;
+    }
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -110,59 +114,68 @@ body{
     text-align: center;
   }
   
+  .card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .card-item img {
     width: 100%;
     height: auto;
   }
-  
-  .card-item p {
-    margin-top: 10px;
-  } 
+
+  .card-item .text-card {
+    width: 80%;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.card-item .text-card p {
+    font-size: 20px;
+    line-height: 22px;
+  }  
+
+  .card-item .text-card a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }  
   
   /* pilihan video  */
-.about {
-    padding: 8rem 7% 1.4rem ;
+
+
+.pilihan-vidios {
+    margin-bottom: 30px;
 }
 
-.about h2 {
-    text-align: center;
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
+.card-vidio {
+    overflow: hidden;
+    position: relative;
 }
 
-.about p {
-    text-align: center;
-    font-size: 1.4rem;
-    margin: auto;
-    font-weight: 400;
+
+.card-vidio img {
+    transition: transform 0.5s ease;
 }
 
-.video h2 {
-    font-size: 1rem;
-    margin-top: 3rem;
-    text-align: left;
-    font-weight: bolder;
-    margin-bottom: 0.5rem;
+.card-vidio:hover img {
+    transform: scale(1.05);
 }
 
-.video p {
-    font-size: 0.7rem;
-    text-align: left;
-    font-weight: 300;
-    margin-bottom: 0.2rem;
+.header-videos p {
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
-.videos p {
-    font-size: 0.7rem;
-    text-align: left;
-    font-weight: 300;
-    margin-top: 0.2rem;
+.play-vidio {
+    position: absolute;
+    top: 20%;
+    left: 40%;
 }
 
-.videoo-text p {
-    font-size: 1rem;
-    margin-top: 3rem;
-    text-align: left;
-    font-weight: bolder;
-    margin-bottom: 0.5rem;
+.card-body {
+    height: 300px;
 }

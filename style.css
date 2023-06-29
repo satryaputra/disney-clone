@@ -116,7 +116,8 @@ body{
   }
   
   .card-item p {
-    margin-top: 10px;
+    margin-top: 30px;
+    text-align: center;
   } 
   
   /* pilihan video  */
