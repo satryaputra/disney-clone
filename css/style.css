@@ -15,6 +15,7 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
 .disney-hotstar {
   height: auto;
 }
@@ -30,6 +31,11 @@ body {
   overflow: hidden;
   margin: 0 auto;
   position: relative;
+}
+
+video {
+  max-width: 100%;
+  scale: 1.0175;
 }
 
 .hero .hero-bg {
@@ -49,26 +55,29 @@ body {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 30%;
-  left: 10%;
+  top: 26%;
+  left: 13%;
+}
+
+.hero-poster p {
+  font-size: 14px;
 }
 
 .hero-button {
-  display: flex;
-  flex-direction: column;
   position: absolute;
-  top: 58%;
-  left: 16%;
+  top: 66%;
+  left: 12%;
 }
 
 .hero-button .button1 {
-  background-color: #b34917;
-  color: white;
+  background-color: #e17f1e;
+  color: black;
   font-weight: 600;
   border: none;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 14px;
   width: 200px;
+  margin-right: 20px;
 }
 
 .hero-button .button1:hover {
@@ -78,13 +87,16 @@ body {
 .hero-button .button2 {
   background-color: rgba(0, 0, 0, 0);
   font-weight: 600;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 14px;
+  color: white;
+  width: 200px
 }
 
 .hero-button .button2:hover {
-  background-color: rgba(0, 0, 0, 10%);
+  background-color: rgba(255, 255, 255, 10%);
+  border: 1px solid black;
 }
 
 /* Homepage */
@@ -255,7 +267,7 @@ body {
 }
 
 .card-product img:hover {
-  scale: 1.025;
+  scale: 101%;
 }
 
 .card-product button {
@@ -265,10 +277,12 @@ body {
   font-weight: 600;
   font-size: 12px;
   background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  margin-top: 100px;
 }
 
 .card-product button:hover {
-  background-color: #0c2c67;
+  background-color: #0070d2;
   color: white;
 }
 
