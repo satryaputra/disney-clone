@@ -35,7 +35,7 @@ body {
 
 video {
   max-width: 100%;
-  scale: 1.0175;
+  scale: 1.05;
 }
 
 .hero .hero-bg {
@@ -110,6 +110,10 @@ video {
 
 .cards {
   cursor: pointer;
+}
+
+.cards .row {
+  gap: 20px;
 }
 
 .row {
@@ -263,11 +267,12 @@ video {
 }
 
 .card-product img {
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
+  scale: 95%;
 }
 
 .card-product img:hover {
-  scale: 101%;
+  scale: 96%;
 }
 
 .card-product button {
