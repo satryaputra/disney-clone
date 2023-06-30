@@ -241,6 +241,47 @@ body {
   color: black;
 }
 
+/* product */
+.card-product {
+  cursor: pointer;
+}
+
+.subheader-product {
+  font-size: 18px;
+}
+
+.card-product img {
+  transition: all 0.3s ease;
+}
+
+.card-product img:hover {
+  scale: 1.025;
+}
+
+.card-product button {
+  border-radius: 50px;
+  border: 1px solid black;
+  width: 150px;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card-product button:hover {
+  background-color: #0c2c67;
+  color: white;
+}
+
+.card-product p {
+  width: 70%;
+  text-align: center;
+}
+
+.card-product .harga {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* Footer */
 .footer {
   text-decoration: none;
