@@ -44,15 +44,31 @@
                 <a class="nav-link" href="#">MOVIES</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link" href="#">PARKS</a>
+                <a class="nav-link">PARKS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">MORE</a>
+                <a class="nav-link">MORE</a>
               </li>
             </ul>
           </div>
           <span>
-            <a class="nav-link fw-light">Login</a>
+            <a class="nav-link fw-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+            <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content d-flex flex-column justify-content-center align-items-center position-relative p-4 rounded-4">
+                          <button type="button" class="btn-close position-absolute modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <div class="modal-body d-flex flex-column align-items-center mt-2">
+                              <img src="assets/disney-en-UK.png" alt="">
+                              <p class="fs-5 fw-bold text-primary mt-3">Enter Your Email Address</p>
+                              <form action="">
+                                  <input type="email" class="form-control py-3" placeholder="Email Address">
+                              </form>
+                              <button type="button" class="btn btn-primary py-2 mt-3">Continue</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </span>
         </div>
       </nav>

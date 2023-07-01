@@ -25,6 +25,32 @@ body {
   text-decoration: none;
 }
 
+.modal-content {
+  scale: 70%;
+}
+
+.modal-close {
+  top: 4%;
+  right: 3%;
+  z-index: 99;
+}
+
+.modal-body {
+  width: 100%;
+}
+
+.modal-body > img {
+  width: 60%;
+}
+
+.modal-body > form {
+  width: 90%;
+}
+
+.modal-body > button {
+  width: 90%;
+}
+
 /* Hero */
 
 .hero {
