@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 header > nav:hover {
@@ -31,11 +31,13 @@ header > nav:hover {
   position: absolute;
   top: 60px;
   z-index: 99;
+  padding-top: 15px;
+  font-size: 14px;
 }
 
 .segitiga-shop {
   position: absolute;
-  left: 10.4%;
+  left: 11%;
   top: -10px;
   scale: 100%;
   z-index: -999;
@@ -48,6 +50,15 @@ header > nav:hover {
   position: absolute;
   top: 60px;
   z-index: 99;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.segitiga-trending {
+  position: absolute;
+  left: 18%;
+  top: -10px;
+  scale: 100%;
+  z-index: -999;
 }
 
 .nav-hover-more {
@@ -57,6 +68,15 @@ header > nav:hover {
   position: absolute;
   top: 60px;
   z-index: 99;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.segitiga-more {
+  position: absolute;
+  left: 38%;
+  top: -10px;
+  scale: 100%;
+  z-index: -999;
 }
 
 .disney-hotstar {
