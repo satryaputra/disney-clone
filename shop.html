@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>
-      Disney Shop Homepage | The official home for all things Disney
-    </title>
+    <title>Disney Shop Homepage | The official home for all things Disney</title>
 
     <link rel="shortcut icon" href="assets/title_logo2.png" type="image/png" />
 
@@ -21,346 +19,374 @@
     <!-- Font Noto Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-xxl px-4 pt-1">
-        <div class="d-flex">
-          <a class="navbar-brand me-4" href="#">
-            <img src="assets/home/disney_logo.png" alt="" width="80" />
-          </a>
-          <ul class="navbar-nav fw-semibold d-flex">
-            <li class="nav-item me-3 shop">
-              <a class="nav-link" href="#">SHOP</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">TRENDING</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">MOVIES</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link">PARKS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">MORE</a>
-            </li>
-          </ul>
-        </div>
-        <span>
-          <a class="nav-link fw-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
-          <!-- Modal -->
+    <header>
+      <nav class="navbar navbar-expand-lg d-flex flex-column container-xxl">
+        <div class="container-xxl px-4 pt-1">
+          <div class="d-flex">
+            <a class="navbar-brand me-4" href="#">
+              <img src="assets/home/disney_logo.png" alt="" width="80" />
+            </a>
+            <ul class="navbar-nav fw-semibold d-flex">
+              <li class="nav-item me-3 shop">
+                <a class="nav-link" href="#">SHOP</a>
+              </li>
+              <li class="nav-item me-3 trending">
+                <a class="nav-link fw-bold" href="#">TRENDING</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">MOVIES</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link">PARKS</a>
+              </li>
+              <li class="nav-item more">
+                <a class="nav-link">MORE</a>
+              </li>
+            </ul>
+          </div>
+          <span>
+            <a class="nav-link fw-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+            <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content d-flex flex-column justify-content-center align-items-center position-relative p-4 rounded-4">
-                        <button type="button" class="btn-close position-absolute modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <div class="modal-body d-flex flex-column align-items-center mt-2">
-                            <img src="assets/disney-en-UK.png" alt="">
-                            <p class="fs-5 fw-bold text-primary mt-3">Enter Your Email Address</p>
-                            <form action="">
-                                <input type="email" class="form-control py-3" placeholder="Email Address">
-                            </form>
-                            <button type="button" class="btn btn-primary py-2 mt-3">Continue</button>
-                        </div>
-                    </div>
+              <div class="modal-dialog">
+                <div class="modal-content d-flex flex-column justify-content-center align-items-center position-relative p-4 rounded-4">
+                  <button type="button" class="btn-close position-absolute modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body d-flex flex-column align-items-center mt-2">
+                    <img src="assets/disney-en-UK.png" alt="" />
+                    <p class="fs-5 fw-bold text-primary mt-3">Enter Your Email Address</p>
+                    <form action="">
+                      <input type="email" class="form-control py-3" placeholder="Email Address" />
+                    </form>
+                    <button type="button" class="btn btn-primary py-2 mt-3">Continue</button>
+                  </div>
                 </div>
+              </div>
             </div>
-        </span>
-      </div>
-    </nav>
+          </span>
+        </div>
+
+        <div class="bg-dark nav-hover-shop">
+          <svg class="segitiga-shop" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <polygon points="0,25 15,0 50,50" fill="#212429" />
+          </svg>
+          <a class="ms-3 me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+        </div>
+        <div class="bg-dark nav-hover-trending">
+          <svg class="segitiga-trending" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <polygon points="0,25 15,0 50,50" fill="#212429" />
+          </svg>
+          <a class="ms-3 me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+        </div>
+        <div class="bg-dark nav-hover-more">
+          <svg class="segitiga-more" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <polygon points="0,25 15,0 50,50" fill="#212429" />
+          </svg>
+          <a class="ms-3 me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">haloo</a>
+        </div>
+      </nav>
+    </header>
 
     <!-- header -->
     <div class="header container-xxl">
-        <img src="assets/shop/wonderfully-festive_disney-id-desktop-banner_4c496f30 (1).jpeg" alt="">
-        <button class="py-2 rounded-pill fw-bold border-0 bg-primary text-white">Shop Now</button>
+      <img src="assets/shop/wonderfully-festive_disney-id-desktop-banner_4c496f30 (1).jpeg" alt="" />
+      <button class="py-2 rounded-pill fw-bold border-0 bg-primary text-white">Shop Now</button>
     </div>
 
     <!-- Gallery -->
     <div class="gallery container-xxl mt-3">
-        <div class="row">
-            <div class="col-6 p-0 position-relative">
-                <div class="feature-product">
-                    <img class="feature-product-img" src="assets/shop/featuredproduct-grid-big-mickey-01_44ed61de.jpeg" alt="">
-                    <div class="logo-mickey position-absolute d-flex flex-column justify-content-center align-items-center logo">
-                        <img src="assets/shop/mickeylogo_15b7911f.png" alt="" width="150">
-                        <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP MICKEY MOUSE</a>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-6 p-0 position-relative">
+          <div class="feature-product">
+            <img class="feature-product-img" src="assets/shop/featuredproduct-grid-big-mickey-01_44ed61de.jpeg" alt="" />
+            <div class="logo-mickey position-absolute d-flex flex-column justify-content-center align-items-center logo">
+              <img src="assets/shop/mickeylogo_15b7911f.png" alt="" width="150" />
+              <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP MICKEY MOUSE</a>
             </div>
-            <div class="col-6 p-0 position-relative">
-                <div class="feature-product">
-                    <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-tsum_50ff5f9e.jpeg" alt="">
-                    <div class="logo-tsum position-absolute d-flex flex-column justify-content-center align-items-center logo">
-                        <img src="assets/shop/tsumtsum-logo_455bd8ab.png" alt="" width="150">
-                        <a href="" class="fw-bold text-black text-decoration-none text-center link-logo mt-1">SHOP TSUM TSUM</a>
-                    </div>
-                </div>
-                <div class="feature-product">
-                    <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-marvel_d11a272d.jpeg" alt="">
-                    <div class="logo-marvel position-absolute d-flex flex-column justify-content-center align-items-center logo">
-                        <img src="assets/shop/marvel-logo_87a0ada8.png" alt="" width="150">
-                        <a href="" class="fw-bold text-white  text-decoration-none text-center link-logo mt-1">SHOP MARVEL</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-6 p-0 position-relative">
+          <div class="feature-product">
+            <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-tsum_50ff5f9e.jpeg" alt="" />
+            <div class="logo-tsum position-absolute d-flex flex-column justify-content-center align-items-center logo">
+              <img src="assets/shop/tsumtsum-logo_455bd8ab.png" alt="" width="150" />
+              <a href="" class="fw-bold text-black text-decoration-none text-center link-logo mt-1">SHOP TSUM TSUM</a>
+            </div>
+          </div>
+          <div class="feature-product">
+            <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-marvel_d11a272d.jpeg" alt="" />
+            <div class="logo-marvel position-absolute d-flex flex-column justify-content-center align-items-center logo">
+              <img src="assets/shop/marvel-logo_87a0ada8.png" alt="" width="150" />
+              <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP MARVEL</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="row">
-            <div class="col-6 p-0 position-relative">
-                <div class="feature-product">
-                    <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-princess-belle_b8e2dd74.jpeg" alt="">
-                    <div class="logo-princess position-absolute d-flex flex-column justify-content-center align-items-center logo">
-                        <img src="assets/shop/princesslogo_5b077717.png" alt="" width="200">
-                        <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP PRINCESS</a>
-                    </div>
-                </div>
-                <div class="feature-product">
-                    <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-starwars-01_f01be50e.jpeg" alt="">
-                    <div class="logo-starwars position-absolute d-flex flex-column justify-content-center align-items-center logo">
-                        <img src="assets/shop/starwars-white_cf69d323.png" alt="" width="150">
-                        <a href="" class="fw-bold text-white  text-decoration-none text-center link-logo mt-1">SHOP STAR WARS</a>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-6 p-0 position-relative">
+          <div class="feature-product">
+            <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-princess-belle_b8e2dd74.jpeg" alt="" />
+            <div class="logo-princess position-absolute d-flex flex-column justify-content-center align-items-center logo">
+              <img src="assets/shop/princesslogo_5b077717.png" alt="" width="200" />
+              <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP PRINCESS</a>
             </div>
-            <div class="col-6 p-0 position-relative">
-                <div class="feature-product">
-                    <img class="feature-product-img" src="assets/shop/featuredproduct-grid-big-frozen2_cfc77a92.jpeg" alt="">
-                    <div class="logo-frozen position-absolute d-flex flex-column justify-content-center align-items-center logo">
-                        <img src="assets/shop/frozen-logo-new_37a1fce4.png" alt="" width="200">
-                        <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP FROZEN</a>
-                    </div>
-                </div>
+          </div>
+          <div class="feature-product">
+            <img class="feature-product-img" src="assets/shop/featuredproduct-grid-small-starwars-01_f01be50e.jpeg" alt="" />
+            <div class="logo-starwars position-absolute d-flex flex-column justify-content-center align-items-center logo">
+              <img src="assets/shop/starwars-white_cf69d323.png" alt="" width="150" />
+              <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP STAR WARS</a>
             </div>
+          </div>
         </div>
+        <div class="col-6 p-0 position-relative">
+          <div class="feature-product">
+            <img class="feature-product-img" src="assets/shop/featuredproduct-grid-big-frozen2_cfc77a92.jpeg" alt="" />
+            <div class="logo-frozen position-absolute d-flex flex-column justify-content-center align-items-center logo">
+              <img src="assets/shop/frozen-logo-new_37a1fce4.png" alt="" width="200" />
+              <a href="" class="fw-bold text-white text-decoration-none text-center link-logo mt-1">SHOP FROZEN</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Products -->
     <div class="products container-xxl mt-3">
-        <div class="row">
-            <div class="col product card border-0">
-                <img src="assets/shop/marvel-gotgvol3-pandora-groot_059784b6.jpeg" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Guardians of the Galaxy Dancing Groot Charm</p>
-                    <p class="product-price">RP 950,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/13_e3332c29.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Shang-chi Hoodie</p>
-                    <p class="product-price">RP 110,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/marvel-gotgvol3-pandora-mixtape_8feac2ca.jpeg" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Guardians of the Galaxy Casette Tape Dangle Charm</p>
-                    <p class="product-price">RP 1,190,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/12_80185e85.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Hulk Premium Cutton</p>
-                    <p class="product-price">RP 35,000.00</p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col product card border-0">
+          <img src="assets/shop/marvel-gotgvol3-pandora-groot_059784b6.jpeg" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Guardians of the Galaxy Dancing Groot Charm</p>
+            <p class="product-price">RP 950,000.00</p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col product card border-0">
-                <img src="assets/shop/marvel-gotgvol3-pandora-rocket_df77a9b7.jpeg" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Guardians of the Galaxy Rocket Raccoon Charm</p>
-                    <p class="product-price">RP 1,190,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/14_ea8a425c.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Iron Man Helmet</p>
-                    <p class="product-price">RP 1,399,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/19_29b08c98.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Spider-Man Bata Sepatu Anak Laki-Laki Series Avangers Vamper Black</p>
-                    <p class="product-price">RP 399,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/5_5c15772d (1).png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel White T-Shirt Couple Family</p>
-                    <p class="product-price">RP 279,900.00</p>
-                </div>
-            </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/13_e3332c29.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Shang-chi Hoodie</p>
+            <p class="product-price">RP 110,000.00</p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col product card border-0">
-                <img src="assets/shop/6_3f1e14e2.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Avangers Topi Embosh Bordir</p>
-                    <p class="product-price">RP 119,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/8_24e87c3d.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Captain America Master Kids Shampoo & Conditioner</p>
-                    <p class="product-price">RP 36,800.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/7_cff300f3.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Iron Man Silhoutte Sweatshirt Hood</p>
-                    <p class="product-price">RP 269,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/11_42049b53.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Captain America Sandal</p>
-                    <p class="product-price">RP 239,900.00</p>
-                </div>
-            </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/marvel-gotgvol3-pandora-mixtape_8feac2ca.jpeg" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Guardians of the Galaxy Casette Tape Dangle Charm</p>
+            <p class="product-price">RP 1,190,000.00</p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col product card border-0">
-                <img src="assets/shop/16_d12db80d.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Spider-Man Mainan Figur Goo Jit Zu</p>
-                    <p class="product-price">RP 649,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/17_053663c3.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Hulk Roulette Plush Hulk Mainan Boneka Anak</p>
-                    <p class="product-price">RP 119,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/18_ef9e27bb.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Eternals LEGO®76154 Deviant Ambush! Building Kit</p>
-                    <p class="product-price">RP 356,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/10_023a40ee.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel 1 Set Baby Anak Laki-Laki</p>
-                    <p class="product-price">RP 299,900.00</p>
-                </div>
-            </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/12_80185e85.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Hulk Premium Cutton</p>
+            <p class="product-price">RP 35,000.00</p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col product card border-0">
-                <img src="assets/shop/4_7bb17ac9.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Sepatu Anak  Laki-Laki A- Blackpanther Series Black</p>
-                    <p class="product-price">RP 399,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/9_167bcd3e.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Avanger Trolley 16"</p>
-                    <p class="product-price">RP 579,000.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/20_d57ace7b.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Captain America MINISO Botol cartoon series plastic cup</p>
-                    <p class="product-price">RP 89,900.00</p>
-                </div>
-            </div>
-            <div class="col product card border-0">
-                <img src="assets/shop/12_80185e85.png" alt="">
-                <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
-                    <button class="button py-2">BUY NOW</button>
-                    <p class="product-name mt-3">Marvel Hulk Premium Cutton</p>
-                    <p class="product-price">RP 35,000.00</p>
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col product card border-0">
+          <img src="assets/shop/marvel-gotgvol3-pandora-rocket_df77a9b7.jpeg" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Guardians of the Galaxy Rocket Raccoon Charm</p>
+            <p class="product-price">RP 1,190,000.00</p>
+          </div>
         </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/14_ea8a425c.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Iron Man Helmet</p>
+            <p class="product-price">RP 1,399,000.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/19_29b08c98.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Spider-Man Bata Sepatu Anak Laki-Laki Series Avangers Vamper Black</p>
+            <p class="product-price">RP 399,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/5_5c15772d (1).png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel White T-Shirt Couple Family</p>
+            <p class="product-price">RP 279,900.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col product card border-0">
+          <img src="assets/shop/6_3f1e14e2.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Avangers Topi Embosh Bordir</p>
+            <p class="product-price">RP 119,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/8_24e87c3d.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Captain America Master Kids Shampoo & Conditioner</p>
+            <p class="product-price">RP 36,800.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/7_cff300f3.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Iron Man Silhoutte Sweatshirt Hood</p>
+            <p class="product-price">RP 269,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/11_42049b53.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Captain America Sandal</p>
+            <p class="product-price">RP 239,900.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col product card border-0">
+          <img src="assets/shop/16_d12db80d.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Spider-Man Mainan Figur Goo Jit Zu</p>
+            <p class="product-price">RP 649,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/17_053663c3.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Hulk Roulette Plush Hulk Mainan Boneka Anak</p>
+            <p class="product-price">RP 119,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/18_ef9e27bb.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Eternals LEGO®76154 Deviant Ambush! Building Kit</p>
+            <p class="product-price">RP 356,000.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/10_023a40ee.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel 1 Set Baby Anak Laki-Laki</p>
+            <p class="product-price">RP 299,900.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col product card border-0">
+          <img src="assets/shop/4_7bb17ac9.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Sepatu Anak Laki-Laki A- Blackpanther Series Black</p>
+            <p class="product-price">RP 399,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/9_167bcd3e.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Avanger Trolley 16"</p>
+            <p class="product-price">RP 579,000.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/20_d57ace7b.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Captain America MINISO Botol cartoon series plastic cup</p>
+            <p class="product-price">RP 89,900.00</p>
+          </div>
+        </div>
+        <div class="col product card border-0">
+          <img src="assets/shop/12_80185e85.png" alt="" />
+          <div class="card-body bg-secondary-subtle d-flex justify-content-center align-items-center flex-column">
+            <button class="button py-2">BUY NOW</button>
+            <p class="product-name mt-3">Marvel Hulk Premium Cutton</p>
+            <p class="product-price">RP 35,000.00</p>
+          </div>
+        </div>
+      </div>
     </div>
-
 
     <!-- Footer -->
     <div class="container">
-        <div class="row">
-          <div class="text-center">
-            <img src="assets/home/disney_logo.png" alt="" width="80" style="margin-top: 5rem; margin-bottom: 18px" />
-          </div>
-        </div>
-      </div>
       <div class="row">
-        <div class="col-md-12">
-          <div class="isi d-flex justify-content-center">
-            <div class="mr-3"><a class="footer" href="">SHOP</a></div>
-            <div class="mr-3"><a class="footer" href="">OH MY DISNEY</a></div>
-            <div class="mr-3"><a class="footer" href="">DISNEY STYLE</a></div>
-            <div class="mr-3"><a class="footer" href="">DISNEY FAMILY</a></div>
-            <div class="mr-3"><a class="footer" href="">MOVIES</a></div>
-            <div class="mr-3"><a class="footer" href="">PARKS</a></div>
-            <div class="mr-3"><a class="footer" href="">MARVEL</a></div>
-            <div class="mr-3"><a class="footer" href="">STAR WARS</a></div>
-            <div class="mr-3"><a class="footer" href="">PIXAR</a></div>
-            <div class="mr-3"><a class="footer" href="">PRINCESS</a></div>
-            <div class="mr-3"><a class="footer" href="">GAMES</a></div>
-          </div>
+        <div class="text-center">
+          <img src="assets/home/disney_logo.png" alt="" width="80" style="margin-top: 5rem; margin-bottom: 18px" />
         </div>
       </div>
-  
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center">
-            <div class="isi d-flex justify-content-center">
-              <div class="mr-3"><a class="footer" href="">About Disney</a></div>
-              <div class="mr-3"><a class="footer" href="">Support</a></div>
-              <div class="mr-3"><a class="footer" href="">Investor Relations</a></div>
-              <div class="mr-3"><a class="footer" href="">Careers</a></div>
-              <div class="mr-3"><a class="footer" href="">Terms of Use</a></div>
-              <div class="mr-3"><a class="footer" href="">Supplemental Privacy Policy for Indonesia</a></div>
-              <div class="mr-3"><a class="footer" href="">Privacy Policy</a></div>
-              <div class="mr-3"><a class="footer" href="">Classifications</a></div>
-              <div class="mr-3"><a class="footer" href="">Interest-Based Ads</a></div>
-            </div>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="isi d-flex justify-content-center">
+          <div class="mr-3"><a class="footer" href="">SHOP</a></div>
+          <div class="mr-3"><a class="footer" href="">OH MY DISNEY</a></div>
+          <div class="mr-3"><a class="footer" href="">DISNEY STYLE</a></div>
+          <div class="mr-3"><a class="footer" href="">DISNEY FAMILY</a></div>
+          <div class="mr-3"><a class="footer" href="">MOVIES</a></div>
+          <div class="mr-3"><a class="footer" href="">PARKS</a></div>
+          <div class="mr-3"><a class="footer" href="">MARVEL</a></div>
+          <div class="mr-3"><a class="footer" href="">STAR WARS</a></div>
+          <div class="mr-3"><a class="footer" href="">PIXAR</a></div>
+          <div class="mr-3"><a class="footer" href="">PRINCESS</a></div>
+          <div class="mr-3"><a class="footer" href="">GAMES</a></div>
         </div>
       </div>
-      <div class="text-center">
-        <p style="font-size: 13px; margin-top: 1rem; margin-bottom: 25px">©Disney ©Disney/Pixar © ™ Lucasfilm Ltd. © Marvel, Disney Entertainment</p>
-      </div>
-      <!-- End Footer -->
+    </div>
 
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <div class="isi d-flex justify-content-center">
+            <div class="mr-3"><a class="footer" href="">About Disney</a></div>
+            <div class="mr-3"><a class="footer" href="">Support</a></div>
+            <div class="mr-3"><a class="footer" href="">Investor Relations</a></div>
+            <div class="mr-3"><a class="footer" href="">Careers</a></div>
+            <div class="mr-3"><a class="footer" href="">Terms of Use</a></div>
+            <div class="mr-3"><a class="footer" href="">Supplemental Privacy Policy for Indonesia</a></div>
+            <div class="mr-3"><a class="footer" href="">Privacy Policy</a></div>
+            <div class="mr-3"><a class="footer" href="">Classifications</a></div>
+            <div class="mr-3"><a class="footer" href="">Interest-Based Ads</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <p style="font-size: 13px; margin-top: 1rem; margin-bottom: 25px">©Disney ©Disney/Pixar © ™ Lucasfilm Ltd. © Marvel, Disney Entertainment</p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
