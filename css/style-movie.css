@@ -106,7 +106,7 @@ header > nav:hover {
 }
 .menu a:hover {
   color: rgb(104, 104, 253);
-  border-bottom: 4px solid rgb(104, 104, 253);
+  /* border-bottom: 4px solid rgb(104, 104, 253); */
 }
 
 /*  */
