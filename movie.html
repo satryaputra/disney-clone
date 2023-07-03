@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney Movies | Indonesia</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Noto Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg d-flex flex-column container-xxl">
+        <div class="container-xxl px-4 pt-1">
+          <div class="d-flex">
+            <a class="navbar-brand me-4" href="index.html">
+              <img src="assets/home/disney_logo.png" alt="" width="80" />
+            </a>
+            <ul class="navbar-nav fw-semibold d-flex">
+              <li class="nav-item me-3 shop">
+                <a class="nav-link" href="shop.html">SHOP</a>
+              </li>
+              <li class="nav-item me-3 trending">
+                <a class="nav-link fw-bold" href="#">TRENDING</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">MOVIES</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link">PARKS</a>
+              </li>
+              <li class="nav-item more">
+                <a class="nav-link">MORE</a>
+              </li>
+            </ul>
+          </div>
+          <span>
+            <a class="nav-link fw-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content d-flex flex-column justify-content-center align-items-center position-relative p-4 rounded-4">
+                  <button type="button" class="btn-close position-absolute modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body d-flex flex-column align-items-center mt-2">
+                    <img src="assets/disney-en-UK.png" alt="" />
+                    <p class="fs-5 fw-bold text-primary mt-3">Enter Your Email Address</p>
+                    <form action="">
+                      <input type="email" class="form-control py-3" placeholder="Email Address" />
+                    </form>
+                    <button type="button" class="btn btn-primary py-2 mt-3">Continue</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+
+        <div class="bg-dark nav-hover-shop">
+          <svg class="segitiga-shop" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <polygon points="0,25 15,0 50,50" fill="#212429" />
+          </svg>
+          <a class="ms-3 me-4 fw-bold text-white text-decoration-none" href="">Mickey Mouse and Friends</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Disney Tsum Tsum</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Marvel</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Frozen</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Princess</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Star Wars</a>
+        </div>
+        <div class="bg-dark nav-hover-trending">
+          <svg class="segitiga-trending" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <polygon points="0,25 15,0 50,50" fill="#212429" />
+          </svg>
+          <a class="ms-3 me-4 fw-bold text-white text-decoration-none" href="">Oh My Disney</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Disney Style</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Disney Family</a>
+        </div>
+        <div class="bg-dark nav-hover-more">
+          <svg class="segitiga-more" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <polygon points="0,25 15,0 50,50" fill="#212429" />
+          </svg>
+          <a class="ms-3 me-4 fw-bold text-white text-decoration-none" href="">Marvel</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Pixar</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Disney Princess</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Star Wars</a>
+          <a class="me-4 fw-bold text-white text-decoration-none" href="">Games</a>
+        </div>
+      </nav>
+    </header>
+    <!-- End of Header -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4 class="mt-4 pt-3 mb-5">Explore our movies and shows</h4>
+            <div class="menu mt-4 mb-4 fw-bold">
+              <a href="" style="border-bottom: 4px solid rgb(104, 104, 253)">Featured Movies</a>
+              <a href="">Stream on Disney+ Hotstar</a>
+              <a href="">20th Century Studios Movies</a>
+              <a href="">More Movies (A-Z)</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="poster-id-payoff_ce62087b.jpeg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="poster-id-payoff_ce62087b.jpeg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="sgph_-_ij5_poster_0000_01_plt_intlpayoff_1sht_eng-min_f7f36980 (1).jpeg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="sgph_-_ij5_poster_0000_01_plt_intlpayoff_1sht_eng-min_f7f36980 (1).jpeg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0 hidden">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0 hidden">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0 hidden">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0 hidden">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card rounded-0 hidden">
+              <img src="coba.jpg" class="card-img-top rounded-0" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <button class="btn btn-info text-center" onclick="showMore()">Show More</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <img src="assets/home/disney_logo.png" alt="" width="80" style="margin-top: 5rem; margin-bottom: 18px" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="isi d-flex justify-content-center">
+          <div class="mr-3"><a class="footer" href="">SHOP</a></div>
+          <div class="mr-3"><a class="footer" href="">OH MY DISNEY</a></div>
+          <div class="mr-3"><a class="footer" href="">DISNEY STYLE</a></div>
+          <div class="mr-3"><a class="footer" href="">DISNEY FAMILY</a></div>
+          <div class="mr-3"><a class="footer" href="">MOVIES</a></div>
+          <div class="mr-3"><a class="footer" href="">PARKS</a></div>
+          <div class="mr-3"><a class="footer" href="">MARVEL</a></div>
+          <div class="mr-3"><a class="footer" href="">STAR WARS</a></div>
+          <div class="mr-3"><a class="footer" href="">PIXAR</a></div>
+          <div class="mr-3"><a class="footer" href="">PRINCESS</a></div>
+          <div class="mr-3"><a class="footer" href="">GAMES</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <div class="isi d-flex justify-content-center">
+            <div class="mr-3"><a class="footer" href="">About Disney</a></div>
+            <div class="mr-3"><a class="footer" href="">Support</a></div>
+            <div class="mr-3"><a class="footer" href="">Investor Relations</a></div>
+            <div class="mr-3"><a class="footer" href="">Careers</a></div>
+            <div class="mr-3"><a class="footer" href="">Terms of Use</a></div>
+            <div class="mr-3"><a class="footer" href="">Supplemental Privacy Policy for Indonesia</a></div>
+            <div class="mr-3"><a class="footer" href="">Privacy Policy</a></div>
+            <div class="mr-3"><a class="footer" href="">Classifications</a></div>
+            <div class="mr-3"><a class="footer" href="">Interest-Based Ads</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <p style="font-size: 13px; margin-top: 1rem; margin-bottom: 25px">©Disney ©Disney/Pixar © ™ Lucasfilm Ltd. © Marvel, Disney Entertainment</p>
+    </div>
+    <!-- End Footer -->
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
